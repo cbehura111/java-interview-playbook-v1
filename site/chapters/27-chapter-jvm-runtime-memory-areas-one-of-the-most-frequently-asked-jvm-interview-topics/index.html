@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://example.github.io/senior-java-backend-interview-playbook/chapters/27-chapter-topic-pending/">
+        <link rel="canonical" href="https://example.github.io/senior-java-backend-interview-playbook/chapters/27-chapter-jvm-runtime-memory-areas-one-of-the-most-frequently-asked-jvm-interview-topics/">
       
       
         <link rel="prev" href="../26-chapter-virtual-threads-project-loom-java-21-the-future-of-java-concurrency/">
       
       
-        <link rel="next" href="../28-chapter-topic-pending/">
+        <link rel="next" href="../28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know/">
       
       
         
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#chapter-27" class="md-skip">
+        <a href="#part-vi-jvm-memory-management-garbage-collection" class="md-skip">
           Skip to content
         </a>
       
@@ -1291,24 +1291,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Chapter 27
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1326,135 +1308,6 @@
 
       </a>
       
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Learning Objectives
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-topic-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Topic Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#theory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Theory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-working" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Working
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#production-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Production Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Best Practices
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-mistakes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Mistakes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interview-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interview Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Summary
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1467,7 +1320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../28-chapter-topic-pending/" class="md-nav__link">
+      <a href="../28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know/" class="md-nav__link">
         
   
   
@@ -2498,124 +2351,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Learning Objectives
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-topic-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Topic Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#theory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Theory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-working" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Working
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#production-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Production Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Best Practices
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-mistakes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Mistakes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interview-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interview Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Summary
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2634,17 +2369,518 @@
   
 
 
-<h1 id="chapter-27">Chapter 27<a class="headerlink" href="#chapter-27" title="Permanent link">&para;</a></h1>
-<h2 id="learning-objectives">Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permanent link">&para;</a></h2>
-<h2 id="why-this-topic-matters">Why This Topic Matters<a class="headerlink" href="#why-this-topic-matters" title="Permanent link">&para;</a></h2>
-<h2 id="theory">Theory<a class="headerlink" href="#theory" title="Permanent link">&para;</a></h2>
-<h2 id="internal-working">Internal Working<a class="headerlink" href="#internal-working" title="Permanent link">&para;</a></h2>
-<h2 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Permanent link">&para;</a></h2>
-<h2 id="production-example">Production Example<a class="headerlink" href="#production-example" title="Permanent link">&para;</a></h2>
-<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
-<h2 id="common-mistakes">Common Mistakes<a class="headerlink" href="#common-mistakes" title="Permanent link">&para;</a></h2>
-<h2 id="interview-questions">Interview Questions<a class="headerlink" href="#interview-questions" title="Permanent link">&para;</a></h2>
-<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<h1 id="part-vi-jvm-memory-management-garbage-collection">Part VI - JVM Memory Management &amp; Garbage Collection<a class="headerlink" href="#part-vi-jvm-memory-management-garbage-collection" title="Permanent link">&para;</a></h1>
+<h1 id="chapter-27-jvm-runtime-memory-areas-one-of-the-most-frequently-asked-jvm-interview-topics">Chapter 27: JVM Runtime Memory Areas (One of the Most Frequently Asked JVM Interview Topics)<a class="headerlink" href="#chapter-27-jvm-runtime-memory-areas-one-of-the-most-frequently-asked-jvm-interview-topics" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Interview Difficulty:</strong> ⭐⭐⭐⭐⭐</p>
+<p><strong>Frequently Asked In:</strong> Amazon, Oracle, Microsoft, Goldman Sachs, Walmart, Visa, Adobe, Atlassian</p>
+</blockquote>
+<hr />
+<h1 id="1-why-do-interviewers-ask-this">1. Why Do Interviewers Ask This?<a class="headerlink" href="#1-why-do-interviewers-ask-this" title="Permanent link">&para;</a></h1>
+<p>This is one of the first JVM questions asked in senior Java interviews.</p>
+<p>The interviewer wants to know whether you understand:</p>
+<ul>
+<li>How Java applications execute</li>
+<li>Where objects are stored</li>
+<li>Where local variables live</li>
+<li>How methods are executed</li>
+<li>Why <code>StackOverflowError</code> occurs</li>
+<li>Why <code>OutOfMemoryError</code> occurs</li>
+</ul>
+<p>Typical interview question:</p>
+<blockquote>
+<p><strong>Explain JVM Memory Areas.</strong></p>
+</blockquote>
+<hr />
+<h1 id="2-30-second-interview-answer">2. 30-Second Interview Answer<a class="headerlink" href="#2-30-second-interview-answer" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>The JVM divides memory into several runtime areas. The Heap stores objects and is shared by all threads. Each thread has its own Stack, which stores method frames, local variables, and references. The Program Counter (PC) Register keeps track of the next instruction to execute. The Native Method Stack supports JNI/native code. The Method Area stores class metadata and, in modern JVMs, is implemented using Metaspace.</p>
+</blockquote>
+<hr />
+<h1 id="3-jvm-runtime-memory-layout">3. JVM Runtime Memory Layout<a class="headerlink" href="#3-jvm-runtime-memory-layout" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>                JVM Runtime Memory
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> ┌──────────────────────────────────────────┐
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a> │                                          │
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a> │              Heap (Shared)               │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a> │                                          │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a> └──────────────────────────────────────────┘
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a> ┌──────────────────────────────────────────┐
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a> │         Method Area / Metaspace          │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a> └──────────────────────────────────────────┘
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        Thread-1                Thread-2
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a> ┌──────────────┐         ┌──────────────┐
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a> │ PC Register  │         │ PC Register  │
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a> ├──────────────┤         ├──────────────┤
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a> │ Java Stack   │         │ Java Stack   │
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a> ├──────────────┤         ├──────────────┤
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a> │ Native Stack │         │ Native Stack │
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a> └──────────────┘         └──────────────┘
+</code></pre></div>
+<hr />
+<h1 id="4-heap-memory">4. Heap Memory<a class="headerlink" href="#4-heap-memory" title="Permanent link">&para;</a></h1>
+<p>The <strong>Heap</strong> stores:</p>
+<ul>
+<li>Objects</li>
+<li>Arrays</li>
+<li>Object instances</li>
+</ul>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Student</span><span class="w"> </span><span class="n">student</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Student</span><span class="p">();</span>
+</code></pre></div>
+<p>Memory</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Stack                  Heap
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>student ─────────────► Student Object
+</code></pre></div>
+<p>Important:</p>
+<p>The variable is <strong>not</strong> stored in the Heap.</p>
+<p>Only the object is.</p>
+<hr />
+<h1 id="5-java-stack">5. Java Stack<a class="headerlink" href="#5-java-stack" title="Permanent link">&para;</a></h1>
+<p>Every thread gets its own stack.</p>
+<p>The stack stores:</p>
+<ul>
+<li>Local variables</li>
+<li>Primitive values</li>
+<li>Object references</li>
+<li>Method call frames</li>
+</ul>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">calculate</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="n">Student</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Student</span><span class="p">();</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">}</span>
+</code></pre></div>
+<p>Memory</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Stack Frame
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>x = 10
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>s ─────────► Heap Object
+</code></pre></div>
+<hr />
+<h1 id="6-stack-frames">6. Stack Frames<a class="headerlink" href="#6-stack-frames" title="Permanent link">&para;</a></h1>
+<p>Every method call creates a new frame.</p>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">main</span><span class="p">()</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="err">↓</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">login</span><span class="p">()</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="err">↓</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="n">validate</span><span class="p">()</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="err">↓</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="n">encrypt</span><span class="p">()</span>
+</code></pre></div>
+<p>Memory</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Top
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>encrypt()
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>validate()
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>login()
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>main()
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>Bottom
+</code></pre></div>
+<p>When a method returns,</p>
+<p>its frame is removed.</p>
+<hr />
+<h1 id="7-program-counter-pc-register">7. Program Counter (PC) Register<a class="headerlink" href="#7-program-counter-pc-register" title="Permanent link">&para;</a></h1>
+<p>Each thread has its own PC Register.</p>
+<p>Purpose</p>
+<p>Tracks</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Next JVM Instruction
+</code></pre></div>
+<p>Without it,</p>
+<p>the JVM couldn't resume execution correctly after context switches.</p>
+<hr />
+<h1 id="8-native-method-stack">8. Native Method Stack<a class="headerlink" href="#8-native-method-stack" title="Permanent link">&para;</a></h1>
+<p>Used for</p>
+<ul>
+<li>JNI</li>
+<li>Native C/C++ libraries</li>
+</ul>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">System</span><span class="p">.</span><span class="na">loadLibrary</span><span class="p">(...);</span>
+</code></pre></div>
+<p>Native code executes using the native method stack.</p>
+<hr />
+<h1 id="9-method-area-metaspace">9. Method Area (Metaspace)<a class="headerlink" href="#9-method-area-metaspace" title="Permanent link">&para;</a></h1>
+<p>Stores</p>
+<ul>
+<li>Class metadata</li>
+<li>Method metadata</li>
+<li>Runtime constant pool</li>
+<li>Field information</li>
+<li>Method bytecode information</li>
+</ul>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">class</span> <span class="nc">Employee</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="p">}</span>
+</code></pre></div>
+<p>Metadata goes into</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Metaspace
+</code></pre></div>
+<hr />
+<h1 id="10-permgen-vs-metaspace">10. PermGen vs Metaspace<a class="headerlink" href="#10-permgen-vs-metaspace" title="Permanent link">&para;</a></h1>
+<p>Java 7</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>PermGen
+</code></pre></div>
+<p>Java 8+</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Metaspace
+</code></pre></div>
+<p>Difference</p>
+<table>
+<thead>
+<tr>
+<th>PermGen</th>
+<th>Metaspace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed size</td>
+<td>Uses native memory and can grow (subject to limits)</td>
+</tr>
+<tr>
+<td>Often required tuning</td>
+<td>More flexible</td>
+</tr>
+<tr>
+<td>Removed in Java 8</td>
+<td>Current implementation</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="11-thread-memory">11. Thread Memory<a class="headerlink" href="#11-thread-memory" title="Permanent link">&para;</a></h1>
+<p>Every thread owns</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Stack
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>PC Register
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>Native Stack
+</code></pre></div>
+<p>Shared</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Heap
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>Metaspace
+</code></pre></div>
+<p>Interview Favourite:</p>
+<blockquote>
+<p>Heap is shared.</p>
+<p>Stack is private.</p>
+</blockquote>
+<hr />
+<h1 id="12-example">12. Example<a class="headerlink" href="#12-example" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="w">    </span><span class="n">Employee</span><span class="w"> </span><span class="n">emp</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">();</span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="p">}</span>
+</code></pre></div>
+<p>Memory</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Stack
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>emp
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>↓
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>Heap
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>Employee Object
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>↓
+<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>
+<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a>Method Area
+<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>
+<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a>Employee.class Metadata
+</code></pre></div>
+<hr />
+<h1 id="13-stackoverflowerror">13. StackOverflowError<a class="headerlink" href="#13-stackoverflowerror" title="Permanent link">&para;</a></h1>
+<p>Cause</p>
+<p>Too many stack frames.</p>
+<p>Classic example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">recurse</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="w">    </span><span class="n">recurse</span><span class="p">();</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>Execution</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>recurse()
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>↓
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>recurse()
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>↓
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>
+<a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>recurse()
+<a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a>
+<a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>↓
+<a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a>
+<a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a>...
+</code></pre></div>
+<p>Eventually</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>StackOverflowError
+</code></pre></div>
+<hr />
+<h1 id="14-outofmemoryerror">14. OutOfMemoryError<a class="headerlink" href="#14-outofmemoryerror" title="Permanent link">&para;</a></h1>
+<p>Different problem.</p>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">List</span><span class="o">&lt;</span><span class="kt">byte</span><span class="o">[]&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="k">while</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="w">    </span><span class="n">list</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="o">[</span><span class="mi">1024</span><span class="o">*</span><span class="mi">1024</span><span class="o">]</span><span class="p">);</span>
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="p">}</span>
+</code></pre></div>
+<p>Heap</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>1 MB
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>↓
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>2 MB
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>↓
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>100 MB
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a>
+<a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a>↓
+<a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>
+<a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a>500 MB
+<a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a>
+<a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>↓
+<a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a>
+<a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a>Heap Full
+</code></pre></div>
+<p>Result</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>OutOfMemoryError
+</code></pre></div>
+<hr />
+<h1 id="15-stack-vs-heap">15. Stack vs Heap<a class="headerlink" href="#15-stack-vs-heap" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Stack</th>
+<th>Heap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Per thread</td>
+<td>Shared</td>
+</tr>
+<tr>
+<td>Stores frames</td>
+<td>Stores objects</td>
+</tr>
+<tr>
+<td>Fast allocation</td>
+<td>Managed by GC</td>
+</tr>
+<tr>
+<td>Automatic cleanup</td>
+<td>Garbage collected</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>Larger</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="16-production-example">16. Production Example<a class="headerlink" href="#16-production-example" title="Permanent link">&para;</a></h1>
+<p>Spring Boot Application</p>
+<p>Request</p>
+<p>↓</p>
+<p>Controller</p>
+<p>↓</p>
+<p>Service</p>
+<p>↓</p>
+<p>Repository</p>
+<p>Each method creates</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>Stack Frames
+</code></pre></div>
+<p>Business Objects</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>Heap
+</code></pre></div>
+<p>Application classes</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>Metaspace
+</code></pre></div>
+<hr />
+<h1 id="17-common-interview-traps">17. Common Interview Traps<a class="headerlink" href="#17-common-interview-traps" title="Permanent link">&para;</a></h1>
+<h3 id="are-objects-stored-on-the-stack">Are objects stored on the stack?<a class="headerlink" href="#are-objects-stored-on-the-stack" title="Permanent link">&para;</a></h3>
+<p>❌ Generally no.</p>
+<p>Objects are typically allocated on the heap. However, modern JVMs may optimise some allocations (for example, through escape analysis and scalar replacement), but this is an implementation optimisation and shouldn't change your conceptual model.</p>
+<hr />
+<h3 id="are-references-stored-on-the-heap">Are references stored on the Heap?<a class="headerlink" href="#are-references-stored-on-the-heap" title="Permanent link">&para;</a></h3>
+<p>❌ Local references are stored in stack frames.</p>
+<p>The referenced object lives in the heap.</p>
+<hr />
+<h3 id="is-stack-shared">Is Stack shared?<a class="headerlink" href="#is-stack-shared" title="Permanent link">&para;</a></h3>
+<p>❌ No.</p>
+<p>Every thread has its own stack.</p>
+<hr />
+<h3 id="can-stackoverflowerror-be-fixed-by-increasing-heap">Can StackOverflowError be fixed by increasing Heap?<a class="headerlink" href="#can-stackoverflowerror-be-fixed-by-increasing-heap" title="Permanent link">&para;</a></h3>
+<p>❌ No.</p>
+<p>Stack and Heap are separate memory areas.</p>
+<hr />
+<h3 id="can-metaspace-run-out-of-memory">Can Metaspace run out of memory?<a class="headerlink" href="#can-metaspace-run-out-of-memory" title="Permanent link">&para;</a></h3>
+<p>✅ Yes.</p>
+<p>Example:</p>
+<ul>
+<li>Excessive dynamic class generation</li>
+<li>Class loader leaks</li>
+</ul>
+<p>Error</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>OutOfMemoryError: Metaspace
+</code></pre></div>
+<hr />
+<h1 id="18-production-debugging-story">18. Production Debugging Story<a class="headerlink" href="#18-production-debugging-story" title="Permanent link">&para;</a></h1>
+<p>Problem</p>
+<p>Application crashed after several days.</p>
+<p>Error</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>OutOfMemoryError: Metaspace
+</code></pre></div>
+<p>Investigation</p>
+<p>Application repeatedly created new class loaders for dynamically generated classes without releasing them.</p>
+<p>Result</p>
+<p>Metaspace kept growing.</p>
+<p>Fix</p>
+<ul>
+<li>Eliminate the class loader leak.</li>
+<li>Reuse class loaders where appropriate.</li>
+<li>Set monitoring and sensible Metaspace limits.</li>
+</ul>
+<hr />
+<h1 id="19-senior-level-follow-up-questions">19. Senior-Level Follow-up Questions<a class="headerlink" href="#19-senior-level-follow-up-questions" title="Permanent link">&para;</a></h1>
+<ol>
+<li>Explain JVM runtime memory.</li>
+<li>Difference between Heap and Stack?</li>
+<li>Where are objects stored?</li>
+<li>Where are local variables stored?</li>
+<li>What is Metaspace?</li>
+<li>Difference between PermGen and Metaspace?</li>
+<li>Why does <code>StackOverflowError</code> occur?</li>
+<li>Why does <code>OutOfMemoryError</code> occur?</li>
+<li>Is Heap thread-safe?</li>
+<li>What happens during a method call?</li>
+</ol>
+<hr />
+<h1 id="20-real-interview-scenario">20. Real Interview Scenario<a class="headerlink" href="#20-real-interview-scenario" title="Permanent link">&para;</a></h1>
+<p><strong>Interviewer:</strong></p>
+<blockquote>
+<p>"Your application throws <code>StackOverflowError</code>. How would you debug it?"</p>
+</blockquote>
+<h3 id="strong-answer">Strong Answer<a class="headerlink" href="#strong-answer" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>I'd first inspect the stack trace to identify repeated method calls, which often indicate infinite recursion. If recursion is intentional, I'd verify that there's a valid termination condition. If the call depth is legitimately very large, I'd consider converting the algorithm to an iterative approach rather than simply increasing the thread stack size.</p>
+</blockquote>
+<hr />
+<h1 id="21-cheat-sheet">21. Cheat Sheet<a class="headerlink" href="#21-cheat-sheet" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Memory Area</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heap</td>
+<td>Objects and arrays</td>
+</tr>
+<tr>
+<td>Stack</td>
+<td>Method frames, local variables, references</td>
+</tr>
+<tr>
+<td>PC Register</td>
+<td>Next JVM instruction</td>
+</tr>
+<tr>
+<td>Native Stack</td>
+<td>JNI/native methods</td>
+</tr>
+<tr>
+<td>Metaspace</td>
+<td>Class metadata</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="memory-ownership">Memory Ownership<a class="headerlink" href="#memory-ownership" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Shared</th>
+<th>Per Thread</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heap</td>
+<td>Stack</td>
+</tr>
+<tr>
+<td>Metaspace</td>
+<td>PC Register</td>
+</tr>
+<tr>
+<td></td>
+<td>Native Stack</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="interview-secret">🎯 Interview Secret<a class="headerlink" href="#interview-secret" title="Permanent link">&para;</a></h2>
+<p>When the interviewer asks:</p>
+<blockquote>
+<p><strong>"Explain JVM Memory."</strong></p>
+</blockquote>
+<p>Don't just list the memory areas.</p>
+<p>A senior-level answer is:</p>
+<blockquote>
+<p>"The JVM separates memory based on responsibility. Shared memory such as the Heap stores application objects and is managed by the garbage collector. Each thread has its own Stack, PC Register, and Native Stack, allowing methods to execute independently without interfering with other threads. Class metadata is stored in Metaspace. Understanding which area is shared versus thread-local helps explain common issues such as <code>OutOfMemoryError</code>, <code>StackOverflowError</code>, and concurrency behaviour."</p>
+</blockquote>
+<p>That demonstrates both JVM knowledge and the ability to relate it to real production problems.</p>
+<hr />
+<h2 id="next-chapter">Next Chapter<a class="headerlink" href="#next-chapter" title="Permanent link">&para;</a></h2>
+<p><strong>Chapter 28 - Object Creation, Allocation &amp; Escape Analysis</strong></p>
+<p>We'll cover:</p>
+<ul>
+<li>Object creation lifecycle</li>
+<li>TLAB (Thread Local Allocation Buffer)</li>
+<li>Eden allocation</li>
+<li>Escape Analysis</li>
+<li>Scalar Replacement</li>
+<li>Stack allocation optimisations</li>
+<li>Object headers</li>
+<li>Compressed OOPs</li>
+<li>JIT optimisations</li>
+<li>Production memory tuning</li>
+</ul>
+<p>This is one of the most valuable JVM internals topics for senior Java interviews because it connects Java code directly to how the JVM allocates and optimises memory.</p>
 
 
 

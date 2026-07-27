@@ -1,0 +1,9 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "markdownlint.config": {
+        "default": true,
+        "MD013": false
+    },
+    "python.analysis.typeCheckingMode": "basic"
+}

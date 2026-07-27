@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run chapter generator",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/create_chapter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "61",
+                "new chapter"
+            ]
+        }
+    ]
+}

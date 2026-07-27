@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve Docs",
+			"type": "shell",
+			"command": "python -m mkdocs serve"
+		},
+		{
+			"label": "Build Docs",
+			"type": "shell",
+			"command": "python -m mkdocs build --strict"
+		},
+		{
+			"label": "Update Summary",
+			"type": "shell",
+			"command": "python scripts/update_summary.py"
+		},
+		{
+			"label": "Build Export Artifacts",
+			"type": "shell",
+			"command": "python scripts/build_pdf.py"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"yzhang.markdown-all-in-one",
+		"bierner.markdown-mermaid",
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"davidanson.vscode-markdownlint",
+		"shd101wyy.markdown-preview-enhanced"
+	]
+}

@@ -1,0 +1,124 @@
+site_name: Senior Java Backend Interview Playbook
+site_description: Production-grade backend engineering interview playbook for Java developers
+site_url: https://example.github.io/senior-java-backend-interview-playbook
+repo_url: https://github.com/example/senior-java-backend-interview-playbook
+repo_name: senior-java-backend-interview-playbook
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - tables
+  - def_list
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/example/senior-java-backend-interview-playbook
+
+nav:
+  - Home: index.md
+  - Preface: preface.md
+  - Introduction: introduction.md
+  - Roadmap: roadmap.md
+  - Chapters:
+      - Chapter 01: chapters/01-chapter-introduction-to-concurrency.md
+      - Chapter 02: chapters/02-chapter-java-memory-model-jmm.md
+      - Chapter 03: chapters/03-chapter-processes-threads-thread-lifecycle.md
+      - Chapter 04: chapters/04-chapter-heap-stack-cpu-cache.md
+      - Chapter 05: chapters/05-chapter-memory-visibility-instruction-reordering.md
+      - Chapter 06: chapters/06-chapter-synchronized-keyword.md
+      - Chapter 07: chapters/07-chapter-volatile-keyword-complete-deep-dive.md
+      - Chapter 08: chapters/08-chapter-reentrantlock-advanced-locking.md
+      - Chapter 09: chapters/09-chapter-readwritelock-optimizing-read-heavy-applications.md
+      - Chapter 10: chapters/10-chapter-stampedlock-high-performance-locking.md
+      - Chapter 11: chapters/11-chapter-hashmap-internals-source-code-to-production.md
+      - Chapter 12: chapters/12-chapter-why-hashmap-is-not-thread-safe-deep-dive.md
+      - Chapter 13: chapters/13-chapter-concurrenthashmap-complete-internal-architecture.md
+      - Chapter 14: chapters/14-chapter-copyonwritearraylist-thread-safe-list-for-read-heavy-applications.md
+      - Chapter 15: chapters/15-chapter-blockingqueue-the-producer-consumer-pattern.md
+      - Chapter 16: chapters/16-chapter-concurrentlinkedqueue-lock-free-queue.md
+      - Chapter 17: chapters/17-chapter-atomic-classes-compare-and-swap-cas.md
+      - Chapter 18: chapters/18-chapter-longadder-longaccumulator.md
+      - Chapter 19: chapters/19-chapter-atomicreference-atomicstampedreference-the-aba-problem.md
+      - Chapter 20: chapters/20-chapter-lock-free-programming-patterns.md
+      - Chapter 21: chapters/21-chapter-executor-framework-executorservice.md
+      - Chapter 22: chapters/22-chapter-threadpoolexecutor-internals-the-most-important-concurrency-topic.md
+      - Chapter 23: chapters/23-chapter-completablefuture-the-ultimate-interview-guide.md
+      - Chapter 24: chapters/24-chapter-forkjoinpool-work-stealing-the-hidden-engine-behind-modern-java.md
+      - Chapter 25: chapters/25-chapter-scheduledexecutorservice-scheduling-best-practices.md
+      - Chapter 26: chapters/26-chapter-virtual-threads-project-loom-java-21-the-future-of-java-concurrency.md
+      - Chapter 27: chapters/27-chapter-topic-pending.md
+      - Chapter 28: chapters/28-chapter-topic-pending.md
+      - Chapter 29: chapters/29-chapter-topic-pending.md
+      - Chapter 30: chapters/30-chapter-topic-pending.md
+      - Chapter 31: chapters/31-chapter-topic-pending.md
+      - Chapter 32: chapters/32-chapter-topic-pending.md
+      - Chapter 33: chapters/33-chapter-topic-pending.md
+      - Chapter 34: chapters/34-chapter-topic-pending.md
+      - Chapter 35: chapters/35-chapter-topic-pending.md
+      - Chapter 36: chapters/36-chapter-topic-pending.md
+      - Chapter 37: chapters/37-chapter-topic-pending.md
+      - Chapter 38: chapters/38-chapter-topic-pending.md
+      - Chapter 39: chapters/39-chapter-topic-pending.md
+      - Chapter 40: chapters/40-chapter-topic-pending.md
+      - Chapter 41: chapters/41-chapter-topic-pending.md
+      - Chapter 42: chapters/42-chapter-topic-pending.md
+      - Chapter 43: chapters/43-chapter-topic-pending.md
+      - Chapter 44: chapters/44-chapter-topic-pending.md
+      - Chapter 45: chapters/45-chapter-topic-pending.md
+      - Chapter 46: chapters/46-chapter-topic-pending.md
+      - Chapter 47: chapters/47-chapter-topic-pending.md
+      - Chapter 48: chapters/48-chapter-topic-pending.md
+      - Chapter 49: chapters/49-chapter-topic-pending.md
+      - Chapter 50: chapters/50-chapter-topic-pending.md
+      - Chapter 51: chapters/51-chapter-topic-pending.md
+      - Chapter 52: chapters/52-chapter-topic-pending.md
+      - Chapter 53: chapters/53-chapter-topic-pending.md
+      - Chapter 54: chapters/54-chapter-topic-pending.md
+      - Chapter 55: chapters/55-chapter-topic-pending.md
+      - Chapter 56: chapters/56-chapter-topic-pending.md
+      - Chapter 57: chapters/57-chapter-topic-pending.md
+      - Chapter 58: chapters/58-chapter-topic-pending.md
+      - Chapter 59: chapters/59-chapter-topic-pending.md
+      - Chapter 60: chapters/60-chapter-topic-pending.md
+  - Appendices:
+      - Appendix A: appendices/appendix-a-reference-material-and-quick-lookup-notes.md

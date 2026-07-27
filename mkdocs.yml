@@ -90,8 +90,8 @@ nav:
       - Chapter 28: chapters/28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know.md
       - Chapter 29: chapters/29-chapter-garbage-collection-fundamentals-and-generational-gc.md
       - Chapter 30: chapters/30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah.md
-      - Chapter 31: chapters/31-chapter-topic-pending.md
-      - Chapter 32: chapters/32-chapter-topic-pending.md
+      - Chapter 31: chapters/31-chapter-jvm-memory-leaks-outofmemoryerror-and-heap-dump-analysis-real-production-debugging.md
+      - Chapter 32: chapters/32-chapter-jvm-performance-tuning-and-gc-tuning-production-performance-engineering.md
       - Chapter 33: chapters/33-chapter-topic-pending.md
       - Chapter 34: chapters/34-chapter-topic-pending.md
       - Chapter 35: chapters/35-chapter-topic-pending.md

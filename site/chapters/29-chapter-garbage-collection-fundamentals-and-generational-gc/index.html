@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://example.github.io/senior-java-backend-interview-playbook/chapters/30-chapter-topic-pending/">
+        <link rel="canonical" href="https://example.github.io/senior-java-backend-interview-playbook/chapters/29-chapter-garbage-collection-fundamentals-and-generational-gc/">
       
       
-        <link rel="prev" href="../29-chapter-topic-pending/">
+        <link rel="prev" href="../28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know/">
       
       
-        <link rel="next" href="../31-chapter-topic-pending/">
+        <link rel="next" href="../30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Chapter 30 - Senior Java Backend Interview Playbook</title>
+        <title>Chapter 29 - Senior Java Backend Interview Playbook</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#chapter-30" class="md-skip">
+        <a href="#part-vi-jvm-memory-management-garbage-collection" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Chapter 30
+              Chapter 29
             
           </span>
         </div>
@@ -1335,10 +1335,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../29-chapter-topic-pending/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1354,6 +1363,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1363,37 +1373,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Chapter 30
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah/" class="md-nav__link">
         
   
   
@@ -1409,136 +1392,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Learning Objectives
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-topic-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Topic Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#theory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Theory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-working" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Working
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#production-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Production Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Best Practices
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-mistakes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Mistakes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interview-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interview Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Summary
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2498,124 +2351,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#learning-objectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Learning Objectives
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-this-topic-matters" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Why This Topic Matters
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#theory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Theory
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-working" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Working
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#production-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Production Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Best Practices
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-mistakes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Mistakes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interview-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interview Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Summary
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2634,17 +2369,551 @@
   
 
 
-<h1 id="chapter-30">Chapter 30<a class="headerlink" href="#chapter-30" title="Permanent link">&para;</a></h1>
-<h2 id="learning-objectives">Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permanent link">&para;</a></h2>
-<h2 id="why-this-topic-matters">Why This Topic Matters<a class="headerlink" href="#why-this-topic-matters" title="Permanent link">&para;</a></h2>
-<h2 id="theory">Theory<a class="headerlink" href="#theory" title="Permanent link">&para;</a></h2>
-<h2 id="internal-working">Internal Working<a class="headerlink" href="#internal-working" title="Permanent link">&para;</a></h2>
-<h2 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Permanent link">&para;</a></h2>
-<h2 id="production-example">Production Example<a class="headerlink" href="#production-example" title="Permanent link">&para;</a></h2>
-<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
-<h2 id="common-mistakes">Common Mistakes<a class="headerlink" href="#common-mistakes" title="Permanent link">&para;</a></h2>
-<h2 id="interview-questions">Interview Questions<a class="headerlink" href="#interview-questions" title="Permanent link">&para;</a></h2>
-<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<h1 id="part-vi-jvm-memory-management-garbage-collection">Part VI – JVM Memory Management &amp; Garbage Collection<a class="headerlink" href="#part-vi-jvm-memory-management-garbage-collection" title="Permanent link">&para;</a></h1>
+<h1 id="chapter-29-garbage-collection-fundamentals-generational-gc-the-foundation-of-jvm-memory-management">Chapter 29: Garbage Collection Fundamentals &amp; Generational GC (The Foundation of JVM Memory Management)<a class="headerlink" href="#chapter-29-garbage-collection-fundamentals-generational-gc-the-foundation-of-jvm-memory-management" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Interview Difficulty:</strong> ⭐⭐⭐⭐⭐</p>
+<p><strong>Frequently Asked In:</strong> Amazon, Oracle, Microsoft, Goldman Sachs, Visa, Walmart, Adobe, Atlassian</p>
+</blockquote>
+<hr />
+<h1 id="1-why-do-interviewers-ask-this">1. Why Do Interviewers Ask This?<a class="headerlink" href="#1-why-do-interviewers-ask-this" title="Permanent link">&para;</a></h1>
+<p>Garbage Collection (GC) is one of the most frequently discussed JVM topics in senior Java interviews.</p>
+<p>The interviewer wants to evaluate whether you understand:</p>
+<ul>
+<li>How the JVM reclaims memory</li>
+<li>Why memory leaks still occur in Java</li>
+<li>Object lifecycle</li>
+<li>Young vs Old Generation</li>
+<li>Minor, Major, and Full GC</li>
+<li>Object promotion</li>
+<li>Performance implications</li>
+</ul>
+<p>Typical interview question:</p>
+<blockquote>
+<p><strong>Explain how Garbage Collection works in Java.</strong></p>
+</blockquote>
+<hr />
+<h1 id="2-30-second-interview-answer">2. 30-Second Interview Answer<a class="headerlink" href="#2-30-second-interview-answer" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Java uses Garbage Collection (GC) to automatically reclaim memory occupied by objects that are no longer reachable. The JVM identifies live objects starting from GC Roots using reachability analysis. Most new objects are allocated in the Young Generation and reclaimed during Minor GC. Objects that survive multiple collections are promoted to the Old Generation, where they are collected less frequently because they are expected to live longer.</p>
+</blockquote>
+<hr />
+<h1 id="3-why-do-we-need-garbage-collection">3. Why Do We Need Garbage Collection?<a class="headerlink" href="#3-why-do-we-need-garbage-collection" title="Permanent link">&para;</a></h1>
+<p>Imagine writing:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Employee</span><span class="w"> </span><span class="n">emp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">();</span>
+</code></pre></div>
+<p>After the method finishes:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">emp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</code></pre></div>
+<p>Who frees the memory?</p>
+<p>Without GC:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Application
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>↓
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>Create Objects
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>↓
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>Memory Keeps Growing
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>↓
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>Out Of Memory
+</code></pre></div>
+<p>GC automatically removes unused objects.</p>
+<hr />
+<h1 id="4-what-is-garbage">4. What is Garbage?<a class="headerlink" href="#4-what-is-garbage" title="Permanent link">&para;</a></h1>
+<p>Garbage means:</p>
+<blockquote>
+<p><strong>Objects that are no longer reachable by the application.</strong></p>
+</blockquote>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">Employee</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Employee</span><span class="p">();</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">e</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</code></pre></div>
+<p>Now</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Employee Object
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>❌ No References
+</code></pre></div>
+<p>Eligible for garbage collection.</p>
+<hr />
+<h1 id="5-reachability-analysis">5. Reachability Analysis<a class="headerlink" href="#5-reachability-analysis" title="Permanent link">&para;</a></h1>
+<p>Modern JVMs do <strong>not</strong> simply count references.</p>
+<p>Instead, they perform <strong>reachability analysis</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>GC Roots
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>↓
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>Follow References
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>↓
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>Reachable Objects
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>↓
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>Live Objects
+</code></pre></div>
+<p>Anything <strong>not reachable</strong> is eligible for collection.</p>
+<hr />
+<h1 id="6-what-are-gc-roots">6. What Are GC Roots?<a class="headerlink" href="#6-what-are-gc-roots" title="Permanent link">&para;</a></h1>
+<p>GC starts from a set of well-known root references.</p>
+<p>Common GC Roots include:</p>
+<ul>
+<li>Local variables in stack frames</li>
+<li>Active thread references</li>
+<li>Static fields</li>
+<li>JNI references</li>
+</ul>
+<p>Example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Stack Variable
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>↓
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>Employee
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>↓
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>Address
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>↓
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>City
+</code></pre></div>
+<p>All remain reachable.</p>
+<hr />
+<h1 id="7-generational-hypothesis">7. Generational Hypothesis<a class="headerlink" href="#7-generational-hypothesis" title="Permanent link">&para;</a></h1>
+<p>One of the most important JVM concepts.</p>
+<p>Observation:</p>
+<blockquote>
+<p><strong>Most objects die young.</strong></p>
+</blockquote>
+<p>Examples</p>
+<ul>
+<li>DTOs</li>
+<li>Request objects</li>
+<li>JSON objects</li>
+<li>Temporary Strings</li>
+</ul>
+<p>Therefore,</p>
+<p>the JVM separates memory into generations.</p>
+<hr />
+<h1 id="8-heap-structure">8. Heap Structure<a class="headerlink" href="#8-heap-structure" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>                 Heap
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>────────────────────────────────────
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>Young Generation
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>   Eden
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a> Survivor S0
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a> Survivor S1
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>────────────────────────────────────
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>Old Generation
+</code></pre></div>
+<p>Most new objects begin in <strong>Eden</strong>.</p>
+<hr />
+<h1 id="9-object-lifecycle">9. Object Lifecycle<a class="headerlink" href="#9-object-lifecycle" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>new Object()
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>↓
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>Eden
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>↓
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>Minor GC
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>↓
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>Survivor
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>↓
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>Minor GC
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>↓
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a>Survivor
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a>
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a>↓
+<a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a>
+<a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a>Promotion
+<a id="__codelineno-8-26" name="__codelineno-8-26" href="#__codelineno-8-26"></a>
+<a id="__codelineno-8-27" name="__codelineno-8-27" href="#__codelineno-8-27"></a>↓
+<a id="__codelineno-8-28" name="__codelineno-8-28" href="#__codelineno-8-28"></a>
+<a id="__codelineno-8-29" name="__codelineno-8-29" href="#__codelineno-8-29"></a>Old Generation
+</code></pre></div>
+<p>Objects that survive several young collections are promoted to the Old Generation.</p>
+<hr />
+<h1 id="10-minor-gc">10. Minor GC<a class="headerlink" href="#10-minor-gc" title="Permanent link">&para;</a></h1>
+<p>Occurs when:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Eden
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>██████████
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>Full
+</code></pre></div>
+<p>Process</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Minor GC
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>↓
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>Dead Objects Removed
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>↓
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>Live Objects
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>↓
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>Survivor Space
+</code></pre></div>
+<p>Minor GCs are usually frequent and relatively fast.</p>
+<hr />
+<h1 id="11-survivor-spaces">11. Survivor Spaces<a class="headerlink" href="#11-survivor-spaces" title="Permanent link">&para;</a></h1>
+<p>There are two survivor spaces.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Eden
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>↓
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>S0
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>↓
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>S1
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>↓
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>Old Generation
+</code></pre></div>
+<p>Objects move between survivor spaces across collections before promotion.</p>
+<hr />
+<h1 id="12-object-promotion">12. Object Promotion<a class="headerlink" href="#12-object-promotion" title="Permanent link">&para;</a></h1>
+<p>Suppose</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Object
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>↓
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>Minor GC
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>↓
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>Survives
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>↓
+<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>
+<a id="__codelineno-12-13" name="__codelineno-12-13" href="#__codelineno-12-13"></a>Minor GC
+<a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a>
+<a id="__codelineno-12-15" name="__codelineno-12-15" href="#__codelineno-12-15"></a>↓
+<a id="__codelineno-12-16" name="__codelineno-12-16" href="#__codelineno-12-16"></a>
+<a id="__codelineno-12-17" name="__codelineno-12-17" href="#__codelineno-12-17"></a>Survives
+<a id="__codelineno-12-18" name="__codelineno-12-18" href="#__codelineno-12-18"></a>
+<a id="__codelineno-12-19" name="__codelineno-12-19" href="#__codelineno-12-19"></a>↓
+<a id="__codelineno-12-20" name="__codelineno-12-20" href="#__codelineno-12-20"></a>
+<a id="__codelineno-12-21" name="__codelineno-12-21" href="#__codelineno-12-21"></a>Promoted
+</code></pre></div>
+<p>Eventually</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Old Generation
+</code></pre></div>
+<p>Promotion depends on JVM heuristics and collector configuration.</p>
+<hr />
+<h1 id="13-major-gc">13. Major GC<a class="headerlink" href="#13-major-gc" title="Permanent link">&para;</a></h1>
+<p>Targets</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Old Generation
+</code></pre></div>
+<p>Characteristics</p>
+<ul>
+<li>Less frequent</li>
+<li>More expensive</li>
+<li>Longer pause times (collector dependent)</li>
+</ul>
+<hr />
+<h1 id="14-full-gc">14. Full GC<a class="headerlink" href="#14-full-gc" title="Permanent link">&para;</a></h1>
+<p>Interview Favourite.</p>
+<p>Full GC generally involves collecting the entire heap and may also reclaim other JVM-managed memory such as class metadata depending on the collector and JVM implementation.</p>
+<p>It is usually the most expensive type of collection.</p>
+<hr />
+<h1 id="15-minor-vs-major-vs-full-gc">15. Minor vs Major vs Full GC<a class="headerlink" href="#15-minor-vs-major-vs-full-gc" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Minor GC</th>
+<th>Major GC</th>
+<th>Full GC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Young Generation</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Old Generation</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Usually Fast</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Frequent</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="16-weak-references">16. Weak References<a class="headerlink" href="#16-weak-references" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">WeakReference</span><span class="o">&lt;</span><span class="n">Employee</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ref</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">WeakReference</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">employee</span><span class="p">);</span>
+</code></pre></div>
+<p>If only a weak reference remains,</p>
+<p>the object is eligible for collection during the next GC.</p>
+<p>Typical use:</p>
+<ul>
+<li>WeakHashMap</li>
+<li>Certain cache implementations</li>
+</ul>
+<hr />
+<h1 id="17-soft-references">17. Soft References<a class="headerlink" href="#17-soft-references" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">SoftReference</span><span class="o">&lt;</span><span class="n">Image</span><span class="o">&gt;</span><span class="w"> </span><span class="n">image</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">SoftReference</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">obj</span><span class="p">);</span>
+</code></pre></div>
+<p>Softly reachable objects may remain available until the JVM needs memory.</p>
+<p>Useful for memory-sensitive caches.</p>
+<hr />
+<h1 id="18-phantom-references">18. Phantom References<a class="headerlink" href="#18-phantom-references" title="Permanent link">&para;</a></h1>
+<p>Rare interview topic.</p>
+<p>Used for:</p>
+<ul>
+<li>Advanced resource cleanup</li>
+<li>Tracking object reclamation</li>
+<li>Integration with <code>ReferenceQueue</code></li>
+</ul>
+<p>Not used to access the object itself.</p>
+<hr />
+<h1 id="19-systemgc">19. System.gc()<a class="headerlink" href="#19-systemgc" title="Permanent link">&para;</a></h1>
+<p>Interview Trap.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">System</span><span class="p">.</span><span class="na">gc</span><span class="p">();</span>
+</code></pre></div>
+<p>Does this force GC?</p>
+<p><strong>No.</strong></p>
+<p>It is only a request to the JVM.</p>
+<p>The JVM is free to ignore it or schedule collection later.</p>
+<hr />
+<h1 id="20-production-example">20. Production Example<a class="headerlink" href="#20-production-example" title="Permanent link">&para;</a></h1>
+<p>REST API</p>
+<p>1000 requests/sec</p>
+<p>Each request creates</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>DTO
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>Response
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>JSON
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>Validation Objects
+</code></pre></div>
+<p>Most die within milliseconds.</p>
+<p>They are reclaimed during Minor GC.</p>
+<hr />
+<h1 id="21-common-interview-traps">21. Common Interview Traps<a class="headerlink" href="#21-common-interview-traps" title="Permanent link">&para;</a></h1>
+<h3 id="does-gc-immediately-remove-an-unreachable-object">Does GC immediately remove an unreachable object?<a class="headerlink" href="#does-gc-immediately-remove-an-unreachable-object" title="Permanent link">&para;</a></h3>
+<p>❌ No.</p>
+<p>The object becomes <strong>eligible</strong> for collection.</p>
+<p>The JVM decides when to reclaim it.</p>
+<hr />
+<h3 id="does-null-immediately-free-memory">Does <code>null</code> immediately free memory?<a class="headerlink" href="#does-null-immediately-free-memory" title="Permanent link">&para;</a></h3>
+<p>❌ No.</p>
+<p>It only removes one reference.</p>
+<p>The object is collected later if it is no longer reachable.</p>
+<hr />
+<h3 id="can-java-have-memory-leaks">Can Java have memory leaks?<a class="headerlink" href="#can-java-have-memory-leaks" title="Permanent link">&para;</a></h3>
+<p>✅ Yes.</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kd">static</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cache</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+</code></pre></div>
+<p>If objects remain referenced indefinitely,</p>
+<p>GC cannot reclaim them.</p>
+<hr />
+<h3 id="does-full-gc-always-mean-the-application-has-a-memory-leak">Does Full GC always mean the application has a memory leak?<a class="headerlink" href="#does-full-gc-always-mean-the-application-has-a-memory-leak" title="Permanent link">&para;</a></h3>
+<p>❌ No.</p>
+<p>Frequent Full GCs may indicate memory pressure, poor tuning, allocation patterns, or a leak. Investigation is required before drawing conclusions.</p>
+<hr />
+<h1 id="22-production-debugging-story">22. Production Debugging Story<a class="headerlink" href="#22-production-debugging-story" title="Permanent link">&para;</a></h1>
+<p>Problem</p>
+<p>Application pauses every few minutes.</p>
+<p>Logs</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Full GC
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>12 Seconds
+</code></pre></div>
+<p>Investigation</p>
+<p>Heap Dump</p>
+<p>↓</p>
+<p>Large</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>HashMap
+</code></pre></div>
+<p>holding millions of unused objects.</p>
+<p>Root Cause</p>
+<p>Application cache grew without bounds.</p>
+<p>Fix</p>
+<ul>
+<li>Introduce eviction policies.</li>
+<li>Limit cache size.</li>
+<li>Monitor memory usage.</li>
+</ul>
+<hr />
+<h1 id="23-senior-level-follow-up-questions">23. Senior-Level Follow-up Questions<a class="headerlink" href="#23-senior-level-follow-up-questions" title="Permanent link">&para;</a></h1>
+<ol>
+<li>Explain Garbage Collection.</li>
+<li>What is the Generational Hypothesis?</li>
+<li>What are GC Roots?</li>
+<li>Explain Reachability Analysis.</li>
+<li>Difference between Minor and Major GC?</li>
+<li>What triggers object promotion?</li>
+<li>Difference between Soft and Weak References?</li>
+<li>Does <code>System.gc()</code> force GC?</li>
+<li>Why do Java memory leaks still happen?</li>
+<li>How would you investigate frequent Full GCs?</li>
+</ol>
+<hr />
+<h1 id="24-real-interview-scenario">24. Real Interview Scenario<a class="headerlink" href="#24-real-interview-scenario" title="Permanent link">&para;</a></h1>
+<p><strong>Interviewer:</strong></p>
+<blockquote>
+<p>"Your application throws <code>OutOfMemoryError</code>, but Garbage Collection is running frequently. How is that possible?"</p>
+</blockquote>
+<h3 id="strong-answer">Strong Answer<a class="headerlink" href="#strong-answer" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Frequent GC doesn't necessarily mean memory can be reclaimed. If objects are still strongly reachable—for example, because of an unbounded cache, a static collection, or a class loader leak—the garbage collector cannot free them. I'd analyse GC logs and inspect a heap dump with tools like Eclipse MAT or VisualVM to identify the dominant retained objects and reference chains.</p>
+</blockquote>
+<hr />
+<h1 id="25-cheat-sheet">25. Cheat Sheet<a class="headerlink" href="#25-cheat-sheet" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Key Point</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Garbage</td>
+<td>Unreachable object</td>
+</tr>
+<tr>
+<td>GC Roots</td>
+<td>Starting points for reachability analysis</td>
+</tr>
+<tr>
+<td>Eden</td>
+<td>Initial allocation area</td>
+</tr>
+<tr>
+<td>Survivor Spaces</td>
+<td>Temporary holding area for surviving objects</td>
+</tr>
+<tr>
+<td>Old Generation</td>
+<td>Long-lived objects</td>
+</tr>
+<tr>
+<td>Minor GC</td>
+<td>Collects Young Generation</td>
+</tr>
+<tr>
+<td>Major GC</td>
+<td>Collects Old Generation</td>
+</tr>
+<tr>
+<td>Full GC</td>
+<td>Collects the entire heap (and may reclaim other JVM-managed memory depending on the collector)</td>
+</tr>
+<tr>
+<td>Weak Reference</td>
+<td>Collected eagerly once only weakly reachable</td>
+</tr>
+<tr>
+<td>Soft Reference</td>
+<td>Retained longer under memory pressure</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="object-lifecycle">Object Lifecycle<a class="headerlink" href="#object-lifecycle" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>new Object()
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>↓
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>Eden
+<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>
+<a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>↓
+<a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a>
+<a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>Minor GC
+<a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a>
+<a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a>↓
+<a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a>
+<a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a>Survivor
+<a id="__codelineno-22-14" name="__codelineno-22-14" href="#__codelineno-22-14"></a>
+<a id="__codelineno-22-15" name="__codelineno-22-15" href="#__codelineno-22-15"></a>↓
+<a id="__codelineno-22-16" name="__codelineno-22-16" href="#__codelineno-22-16"></a>
+<a id="__codelineno-22-17" name="__codelineno-22-17" href="#__codelineno-22-17"></a>Promotion
+<a id="__codelineno-22-18" name="__codelineno-22-18" href="#__codelineno-22-18"></a>
+<a id="__codelineno-22-19" name="__codelineno-22-19" href="#__codelineno-22-19"></a>↓
+<a id="__codelineno-22-20" name="__codelineno-22-20" href="#__codelineno-22-20"></a>
+<a id="__codelineno-22-21" name="__codelineno-22-21" href="#__codelineno-22-21"></a>Old Generation
+<a id="__codelineno-22-22" name="__codelineno-22-22" href="#__codelineno-22-22"></a>
+<a id="__codelineno-22-23" name="__codelineno-22-23" href="#__codelineno-22-23"></a>↓
+<a id="__codelineno-22-24" name="__codelineno-22-24" href="#__codelineno-22-24"></a>
+<a id="__codelineno-22-25" name="__codelineno-22-25" href="#__codelineno-22-25"></a>Major / Full GC
+</code></pre></div>
+<hr />
+<h1 id="interview-secret">🎯 Interview Secret<a class="headerlink" href="#interview-secret" title="Permanent link">&para;</a></h1>
+<p>When the interviewer asks:</p>
+<blockquote>
+<p><strong>"Why is Java Garbage Collection efficient?"</strong></p>
+</blockquote>
+<p>A senior-level answer is:</p>
+<blockquote>
+<p>"The JVM is based on the Generational Hypothesis that most objects die young. By focusing frequent collections on the Young Generation, where short-lived objects are created, the JVM avoids repeatedly scanning long-lived objects in the Old Generation. This significantly reduces GC overhead for typical enterprise applications."</p>
+</blockquote>
+<p>That answer demonstrates an understanding of <strong>JVM design decisions</strong>, not just terminology.</p>
+<hr />
+<h2 id="next-chapter">Next Chapter<a class="headerlink" href="#next-chapter" title="Permanent link">&para;</a></h2>
+<p><strong>Chapter 30 – Modern Garbage Collectors (Serial, Parallel, G1, ZGC &amp; Shenandoah)</strong></p>
+<p>We'll cover:</p>
+<ul>
+<li>Serial GC</li>
+<li>Parallel GC</li>
+<li>CMS (historical context)</li>
+<li>G1 GC internals</li>
+<li>ZGC</li>
+<li>Shenandoah</li>
+<li>Region-based collection</li>
+<li>Concurrent marking</li>
+<li>Pause-time goals</li>
+<li>Collector selection strategies</li>
+<li>Production tuning</li>
+<li>GC log interpretation</li>
+<li>Senior interview scenarios</li>
+</ul>
+<p>This is one of the highest-value JVM topics for senior backend interviews, especially for Java 17 and Java 21 roles.</p>
 
 
 

@@ -88,8 +88,8 @@ nav:
       - Chapter 26: chapters/26-chapter-virtual-threads-project-loom-java-21-the-future-of-java-concurrency.md
       - Chapter 27: chapters/27-chapter-jvm-runtime-memory-areas-one-of-the-most-frequently-asked-jvm-interview-topics.md
       - Chapter 28: chapters/28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know.md
-      - Chapter 29: chapters/29-chapter-topic-pending.md
-      - Chapter 30: chapters/30-chapter-topic-pending.md
+      - Chapter 29: chapters/29-chapter-garbage-collection-fundamentals-and-generational-gc.md
+      - Chapter 30: chapters/30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah.md
       - Chapter 31: chapters/31-chapter-topic-pending.md
       - Chapter 32: chapters/32-chapter-topic-pending.md
       - Chapter 33: chapters/33-chapter-topic-pending.md

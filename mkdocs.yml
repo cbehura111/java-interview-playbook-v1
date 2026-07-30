@@ -102,8 +102,8 @@ nav:
       - Chapter 40: chapters/40-chapter-spring-boot-auto-configuration-and-starter-internals.md
       - Chapter 41: chapters/41-chapter-spring-mvc-and-dispatcherservlet-internals.md
       - Chapter 42: chapters/42-chapter-spring-security-internals-authentication-authorization-and-filter-chain.md
-      - Chapter 43: chapters/43-chapter-topic-pending.md
-      - Chapter 44: chapters/44-chapter-topic-pending.md
+      - Chapter 43: chapters/43-chapter-spring-boot-exception-handling-validation-and-rest-error-design.md
+      - Chapter 44: chapters/44-chapter-spring-boot-caching-internals-cache-abstraction-redis-and-cache-patterns.md
       - Chapter 45: chapters/45-chapter-topic-pending.md
       - Chapter 46: chapters/46-chapter-topic-pending.md
       - Chapter 47: chapters/47-chapter-topic-pending.md

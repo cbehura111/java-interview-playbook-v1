@@ -63,12 +63,11 @@
 - [54 Chapter Microservices Architecture](docs/chapters/54-chapter-microservices-architecture.md)
 - [55 Chapter Api Gateway Service Discovery And Centralized Configuration](docs/chapters/55-chapter-api-gateway-service-discovery-and-centralized-configuration.md)
 - [56 Chapter Resilience Patterns Circuit Breaker Retry Bulkhead Timeout](docs/chapters/56-chapter-resilience-patterns-circuit-breaker-retry-bulkhead-timeout.md)
-- [56 Chapter Topic Pending](docs/chapters/56-chapter-topic-pending.md)
 - [57 Chapter Messaging Systems Kafka And Rabbitmq](docs/chapters/57-chapter-messaging-systems-kafka-and-rabbitmq.md)
-- [57 Chapter Topic Pending](docs/chapters/57-chapter-topic-pending.md)
 - [58 Chapter Distributed Transactions Saga Pattern And Transactional Outbox](docs/chapters/58-chapter-distributed-transactions-saga-pattern-and-transactional-outbox.md)
-- [58 Chapter Topic Pending](docs/chapters/58-chapter-topic-pending.md)
+- [59 Chapter Distributed Caching And Session Management](docs/chapters/59-chapter-distributed-caching-and-session-management.md)
 - [59 Chapter Topic Pending](docs/chapters/59-chapter-topic-pending.md)
+- [60 Chapter Production Debugging And System Design Case Studies Grand Finale](docs/chapters/60-chapter-production-debugging-and-system-design-case-studies-grand-finale.md)
 - [60 Chapter Topic Pending](docs/chapters/60-chapter-topic-pending.md)
 
 ## Appendices

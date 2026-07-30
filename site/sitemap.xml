@@ -2,262 +2,262 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/introduction/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/preface/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/roadmap/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/appendices/appendix-a-reference-material-and-quick-lookup-notes/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/01-chapter-introduction-to-concurrency/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/02-chapter-java-memory-model-jmm/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/03-chapter-processes-threads-thread-lifecycle/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/04-chapter-heap-stack-cpu-cache/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/05-chapter-memory-visibility-instruction-reordering/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/06-chapter-synchronized-keyword/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/07-chapter-volatile-keyword-complete-deep-dive/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/08-chapter-reentrantlock-advanced-locking/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/09-chapter-readwritelock-optimizing-read-heavy-applications/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/10-chapter-stampedlock-high-performance-locking/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/11-chapter-hashmap-internals-source-code-to-production/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/12-chapter-why-hashmap-is-not-thread-safe-deep-dive/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/13-chapter-concurrenthashmap-complete-internal-architecture/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/14-chapter-copyonwritearraylist-thread-safe-list-for-read-heavy-applications/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/15-chapter-blockingqueue-the-producer-consumer-pattern/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/16-chapter-concurrentlinkedqueue-lock-free-queue/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/17-chapter-atomic-classes-compare-and-swap-cas/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/18-chapter-longadder-longaccumulator/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/19-chapter-atomicreference-atomicstampedreference-the-aba-problem/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/20-chapter-lock-free-programming-patterns/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/21-chapter-executor-framework-executorservice/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/22-chapter-threadpoolexecutor-internals-the-most-important-concurrency-topic/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/23-chapter-completablefuture-the-ultimate-interview-guide/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/24-chapter-forkjoinpool-work-stealing-the-hidden-engine-behind-modern-java/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/25-chapter-scheduledexecutorservice-scheduling-best-practices/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/26-chapter-virtual-threads-project-loom-java-21-the-future-of-java-concurrency/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/27-chapter-jvm-runtime-memory-areas-one-of-the-most-frequently-asked-jvm-interview-topics/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/28-chapter-object-creation-allocation-escape-analysis-jvm-internals-every-senior-java-developer-should-know/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/29-chapter-garbage-collection-fundamentals-and-generational-gc/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/31-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/31-chapter-jvm-memory-leaks-outofmemoryerror-and-heap-dump-analysis-real-production-debugging/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/32-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/32-chapter-jvm-performance-tuning-and-gc-tuning-production-performance-engineering/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/33-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/33-chapter-jvm-class-loading-lifecycle-and-classloader-architecture/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/34-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/34-chapter-reflection-api-deep-dive/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/35-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/35-chapter-dynamic-proxies-jdk-proxy-cglib-and-spring-aop-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/36-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/36-chapter-java-annotations-annotation-processing-and-spring-boot-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/37-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/37-chapter-custom-classloaders-plugin-architectures-and-classloader-leaks/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/38-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/38-chapter-spring-ioc-container-and-dependency-injection-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/39-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/39-chapter-spring-bean-lifecycle-and-beanpostprocessor-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/40-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/40-chapter-spring-boot-auto-configuration-and-starter-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/41-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/41-chapter-spring-mvc-and-dispatcherservlet-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/42-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/42-chapter-spring-security-internals-authentication-authorization-and-filter-chain/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/43-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/43-chapter-spring-boot-exception-handling-validation-and-rest-error-design/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/44-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/44-chapter-spring-boot-caching-internals-cache-abstraction-redis-and-cache-patterns/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/45-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/45-chapter-spring-events-async-processing-and-scheduling-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/46-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/46-chapter-spring-data-jpa-and-hibernate-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/47-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/47-chapter-spring-transaction-management-and-transactional-internals/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/48-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/48-chapter-spring-boot-actuator-monitoring-and-observability/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/49-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/49-chapter-spring-boot-testing-junit5-mockito-and-testcontainers/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/50-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/50-chapter-spring-boot-performance-tuning-and-production-best-practices/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/51-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/51-chapter-solid-principles-revisited-for-enterprise-applications/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/52-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/52-chapter-design-patterns-every-senior-java-engineer-should-know/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/53-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/53-chapter-rest-api-design-best-practices/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/54-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/54-chapter-microservices-architecture/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/55-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/55-chapter-api-gateway-service-discovery-and-centralized-configuration/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/56-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/56-chapter-resilience-patterns-circuit-breaker-retry-bulkhead-timeout/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/57-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/57-chapter-messaging-systems-kafka-and-rabbitmq/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/58-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/58-chapter-distributed-transactions-saga-pattern-and-transactional-outbox/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/59-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
          <loc>https://example.github.io/senior-java-backend-interview-playbook/chapters/60-chapter-topic-pending/</loc>
-         <lastmod>2026-07-27</lastmod>
+         <lastmod>2026-07-30</lastmod>
     </url>
 </urlset>

@@ -115,9 +115,9 @@ nav:
       - Chapter 53: chapters/53-chapter-rest-api-design-best-practices.md
       - Chapter 54: chapters/54-chapter-microservices-architecture.md
       - Chapter 55: chapters/55-chapter-api-gateway-service-discovery-and-centralized-configuration.md
-      - Chapter 56: chapters/56-chapter-topic-pending.md
-      - Chapter 57: chapters/57-chapter-topic-pending.md
-      - Chapter 58: chapters/58-chapter-topic-pending.md
+      - Chapter 56: chapters/56-chapter-resilience-patterns-circuit-breaker-retry-bulkhead-timeout.md
+      - Chapter 57: chapters/57-chapter-messaging-systems-kafka-and-rabbitmq.md
+      - Chapter 58: chapters/58-chapter-distributed-transactions-saga-pattern-and-transactional-outbox.md
       - Chapter 59: chapters/59-chapter-topic-pending.md
       - Chapter 60: chapters/60-chapter-topic-pending.md
   - Appendices:

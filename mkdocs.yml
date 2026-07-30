@@ -112,9 +112,9 @@ nav:
       - Chapter 50: chapters/50-chapter-spring-boot-performance-tuning-and-production-best-practices.md
       - Chapter 51: chapters/51-chapter-solid-principles-revisited-for-enterprise-applications.md
       - Chapter 52: chapters/52-chapter-design-patterns-every-senior-java-engineer-should-know.md
-      - Chapter 53: chapters/53-chapter-topic-pending.md
-      - Chapter 54: chapters/54-chapter-topic-pending.md
-      - Chapter 55: chapters/55-chapter-topic-pending.md
+      - Chapter 53: chapters/53-chapter-rest-api-design-best-practices.md
+      - Chapter 54: chapters/54-chapter-microservices-architecture.md
+      - Chapter 55: chapters/55-chapter-api-gateway-service-discovery-and-centralized-configuration.md
       - Chapter 56: chapters/56-chapter-topic-pending.md
       - Chapter 57: chapters/57-chapter-topic-pending.md
       - Chapter 58: chapters/58-chapter-topic-pending.md

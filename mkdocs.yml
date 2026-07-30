@@ -98,10 +98,10 @@ nav:
       - Chapter 36: chapters/36-chapter-java-annotations-annotation-processing-and-spring-boot-internals.md
       - Chapter 37: chapters/37-chapter-custom-classloaders-plugin-architectures-and-classloader-leaks.md
       - Chapter 38: chapters/38-chapter-spring-ioc-container-and-dependency-injection-internals.md
-      - Chapter 39: chapters/39-chapter-topic-pending.md
-      - Chapter 40: chapters/40-chapter-topic-pending.md
-      - Chapter 41: chapters/41-chapter-topic-pending.md
-      - Chapter 42: chapters/42-chapter-topic-pending.md
+      - Chapter 39: chapters/39-chapter-spring-bean-lifecycle-and-beanpostprocessor-internals.md
+      - Chapter 40: chapters/40-chapter-spring-boot-auto-configuration-and-starter-internals.md
+      - Chapter 41: chapters/41-chapter-spring-mvc-and-dispatcherservlet-internals.md
+      - Chapter 42: chapters/42-chapter-spring-security-internals-authentication-authorization-and-filter-chain.md
       - Chapter 43: chapters/43-chapter-topic-pending.md
       - Chapter 44: chapters/44-chapter-topic-pending.md
       - Chapter 45: chapters/45-chapter-topic-pending.md

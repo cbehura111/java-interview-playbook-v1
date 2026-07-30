@@ -92,8 +92,8 @@ nav:
       - Chapter 30: chapters/30-chapter-modern-garbage-collectors-serial-parallel-g1-zc-and-shenandoah.md
       - Chapter 31: chapters/31-chapter-jvm-memory-leaks-outofmemoryerror-and-heap-dump-analysis-real-production-debugging.md
       - Chapter 32: chapters/32-chapter-jvm-performance-tuning-and-gc-tuning-production-performance-engineering.md
-      - Chapter 33: chapters/33-chapter-topic-pending.md
-      - Chapter 34: chapters/34-chapter-topic-pending.md
+      - Chapter 33: chapters/33-chapter-jvm-class-loading-lifecycle-and-classloader-architecture.md
+      - Chapter 34: chapters/34-chapter-reflection-api-deep-dive.md
       - Chapter 35: chapters/35-chapter-topic-pending.md
       - Chapter 36: chapters/36-chapter-topic-pending.md
       - Chapter 37: chapters/37-chapter-topic-pending.md

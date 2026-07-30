@@ -108,8 +108,8 @@ nav:
       - Chapter 46: chapters/46-chapter-spring-data-jpa-and-hibernate-internals.md
       - Chapter 47: chapters/47-chapter-spring-transaction-management-and-transactional-internals.md
       - Chapter 48: chapters/48-chapter-spring-boot-actuator-monitoring-and-observability.md
-      - Chapter 49: chapters/49-chapter-topic-pending.md
-      - Chapter 50: chapters/50-chapter-topic-pending.md
+      - Chapter 49: chapters/49-chapter-spring-boot-testing-junit5-mockito-and-testcontainers.md
+      - Chapter 50: chapters/50-chapter-spring-boot-performance-tuning-and-production-best-practices.md
       - Chapter 51: chapters/51-chapter-topic-pending.md
       - Chapter 52: chapters/52-chapter-topic-pending.md
       - Chapter 53: chapters/53-chapter-topic-pending.md
